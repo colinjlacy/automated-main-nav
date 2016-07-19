@@ -15,7 +15,7 @@ The app should start right up if you run:
 $ npm start
 ```
 
-Navigate to http://localhost:3000 to see it in action.
+Navigate to [http://localhost:3000](http://localhost:3000) to see it in action.
 
 If you'd like to experiment with adding or removing modules from your route configurations, the simplest way is to comment-out their routes from the main route registry, in `app/app.routes.ts`.  
 
