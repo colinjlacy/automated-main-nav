@@ -1,20 +1,20 @@
 /* Master Styles */
 h1 {
-  color: #369; 
-  font-family: Arial, Helvetica, sans-serif;   
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
-h2, h3 { 
+h2, h3 {
   color: #444;
-  font-family: Arial, Helvetica, sans-serif;   
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
-body { 
-  margin: 2em; 
+body {
+  margin: 2em;
 }
-body, input[text], button { 
-  color: #888; 
-  font-family: Cambria, Georgia; 
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
 }
 a {
   cursor: pointer;
@@ -34,29 +34,29 @@ button:hover {
 }
 button:disabled {
   background-color: #eee;
-  color: #aaa; 
+  color: #aaa;
   cursor: auto;
 }
 
 /* Navigation link styles */
-nav a {
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  background-color: #eee;
-  border-radius: 4px;
-}
-nav a:visited, a:link {
-  color: #607D8B;
-}
-nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
-}
-nav a.router-link-active {
-  color: #039be5;
-}
+/*nav a {*/
+  /*padding: 5px 10px;*/
+  /*text-decoration: none;*/
+  /*margin-top: 10px;*/
+  /*display: inline-block;*/
+  /*background-color: #eee;*/
+  /*border-radius: 4px;*/
+/*}*/
+/*nav a:visited, a:link {*/
+  /*color: #607D8B;*/
+/*}*/
+/*nav a:hover {*/
+  /*color: #039be5;*/
+  /*background-color: #CFD8DC;*/
+/*}*/
+/*nav a.router-link-active {*/
+  /*color: #039be5;*/
+/*}*/
 
 /* items class */
 .items {
@@ -137,6 +137,6 @@ nav a.router-link-active {
 }
 
 /* everywhere else */
-* { 
-  font-family: Arial, Helvetica, sans-serif; 
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
