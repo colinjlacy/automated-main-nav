@@ -7,9 +7,7 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 @Component({
   selector: 'division-base',
   template: `
-  <div>
-    <router-outlet></router-outlet>
-  </div>
+  <router-outlet></router-outlet>
   `,
   directives: [ROUTER_DIRECTIVES]
 })
