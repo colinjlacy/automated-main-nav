@@ -16,7 +16,10 @@ import { ClientRouterConfig, ClientRoute } from '../app.models';
               <span class='navbar-brand'>I Wish My Nav Was Automated</span>
               <ul class='nav navbar-nav pull-xs-right'>
                   <li class='nav-item' *ngFor='let route of routes'>
-                      <a class='nav-link' [routerLink]="['/' + route.path]">{{route.name}}</a>
+                      <a class='nav-link'
+                         [routerLink]="['/' + route.path]"
+                         routerLinkActive="active"
+                         [routerLinkActiveOptions]="{exact: true}">{{route.name}}</a>
                   </li>
               </ul>
           </nav>
