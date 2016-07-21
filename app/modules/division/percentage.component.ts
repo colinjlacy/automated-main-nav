@@ -8,7 +8,7 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
   selector: 'percentage',
   template: `
   <h2>"It's about 90% done"</h2>
-  <a [routerLink]="['/modulus']">Modulus</a>
+  <a [routerLink]="['/division/modulus']">Modulus</a>
   `,
   directives: [ROUTER_DIRECTIVES]
 

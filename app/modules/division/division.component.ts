@@ -8,7 +8,7 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
   selector: 'division',
   template: `
   <h2>&lt;div&gt;</h2>
-  <a [routerLink]="['/percentage']">Percentage</a>
+  <a [routerLink]="['/division/percentage']">Percentage</a>
   `,
   directives: [ROUTER_DIRECTIVES]
 })

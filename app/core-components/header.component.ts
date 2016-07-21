@@ -32,6 +32,7 @@ export class ClientHeaderComponent {
   }
 
   private findNavRoutes(arrayOfRoutes:ClientRouterConfig) {
+    console.log(arrayOfRoutes);
     let returnArray:ClientRouterConfig = [];
     arrayOfRoutes.forEach((route:ClientRoute) => {
       if (route.mainNav) {
